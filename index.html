@@ -3,29 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
-<!-- acentuação-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- é uma linha proprietária da microsoft que tenta colocar uma linha superior de codigos no internet explorer, porém hoje isso não é mais utilizado.  -->
     <title>uHost</title>
-<!-- titulo do site-->
     <link rel="shortcut icon" href="favicon.png"> 
-<!-- apenas um link pra add a imagem-->
     <link href=" https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<!-- queria incluir uma nova fonte em meu projeto, para isso fui no site google fonts encontrei a fonte que eu desejava e a inclui nesse link em parelo adcionei a fonte no #main.css --  font-family: "Robot", sans-serif;-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet" rel="stylesheet">
     <link rel="stylesheet" href="main.css"> 
-<!-- puxar o meu código CSS da minha folha de estilo interna a qual nomei nesse projeto de main.css-->
-    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+    <header class="main-header">
+        <div>
+            <a href="index.html" class="main-header__brand">
+                uHost
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="packages/index.html">Packages</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="customers/index.html">Customers</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="start-hosting/index.html">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section id="product-overview">
             <h1 id="first-section-title">Get the freedom you deserve.</h1>
         </section>
         <section id="plans">
             <h1 class="section-title">Choose Your Plan</h1>
-<!-- criei id e class para aplicar estilizações especificas para cada h1, os mesmos foram especificados em main.css-->
+
             <p>Make sure you get the most for your money!</p>
         </section>
 
