@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -8,10 +9,18 @@ body {
 }
 
 #product-overview {
-    background: url("freedom.jpg") ;
+    background: url("img/freedom.jpg") left 10% bottom 20%/cover no-repeat border-box;
+   /* background-image: url("freedom.jpg");
+    background-size: cover;
+    background-position: left 10% bottom 20%; 
+    background-repeat: no-repeat;
+    background-origin: border-box; 
+    background-clip: border-box; */
     width: 100%;
     height: 528px;
     padding: 10px;
+    margin-top: 43px;
+    position: relative;
 }
 
 .section-title {
@@ -22,6 +31,9 @@ body {
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
 }
 
 .plan__list {
@@ -66,6 +78,10 @@ body {
     color: white;
 }
 
+.plan--highlighted .plan__price {
+    color: #0e4f1f;
+}
+
 .plan__features {
     list-style: none;
     margin: 0;
@@ -80,12 +96,14 @@ body {
 
 #key-features {
     background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+
 }
 
 #key-features .section-title {
     color: white;
-    margin-top: 80px;
-    padding: 16px;
+    margin: 32px;
 }
 
 .key-feature__list {
