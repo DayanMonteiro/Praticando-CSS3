@@ -200,3 +200,6 @@ body {
     outline: none;
 }
 
+.open {
+    display: block !important;
+}
