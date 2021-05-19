@@ -1,4 +1,4 @@
-
+/*
 * {
     box-sizing: border-box;
 }
@@ -7,9 +7,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-
+*/
 #product-overview {
-    background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url("img/freedom.jpg") left 10% bottom 70%/cover no-repeat border-box, #ff1b68;
+    background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url("img/freedom.jpg") center/cover no-repeat border-box, #ff1b68;
    /* background-image: url("freedom.jpg");
     background-size: cover;
     background-position: left 10% bottom 20%; 
@@ -19,15 +19,10 @@ body {
     background-image: linear-gradient(180deg, red 70%, blue 60%, rgba(0, 0, 0, 0.5)); 
     background-image: radial-gradient(ellipse farthest-corner at 20& 50%, red, blue, green ); */
     width: 100vw; 
-    height: 33vh;
+    height: 70vh;
    /* padding: 2.7rem; */
     margin-top: 2.75rem;
     position: relative;
-}
-
-.section-title {
-    color: #2ddf5c;
-    text-align: center;
 }
 
 #product-overview h1 {
@@ -36,28 +31,59 @@ body {
     position: absolute;
     bottom: 5%;
     left: 3%;
+    font-size: 1.6rem;
 }
 
-.plan__list {
-    width: 80%;
-    margin: auto;
+@media (min-width: 40rem) {
+    #product-overview {
+        height: 50vh;
+        background-position: 50% 25%;
+    }
+
+    #product-overview h1 {
+        font-size: 3rem;
+    }
+}
+
+/*
+@media (min-width: 60rem) {
+    #product-overview {
+        height: 80vh;
+        background-position: 10% 20%;
+    }
+
+    #product-overview h1 {
+        font-size: 4rem;
+    }
+}
+*/
+
+.section-title {
+    color: #2ddf5c;
     text-align: center;
 }
 
+/*
+.plan__list {
+    width: 100%;
+    margin: auto; COMENTAR ESSE
+    text-align: center;
+}
+*/
 .plan {
     background-color: #d5ffdc;
     text-align: center;
     padding: 1rem;
-    margin: 0.5rem;
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
+    margin: 0.5rem 0;
+    /* display: inline-block; */
+    width: 100%;
+   /* vertical-align: middle; */
 }
 
 .plan--highLighted {
     background: #19b84c;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.50);
+  /*  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.50); */
 }
 
 .plan__annotation {
