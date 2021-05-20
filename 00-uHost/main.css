@@ -110,7 +110,7 @@ body {
     padding: 0;
 }
 
-@media (min-width: 40rem) and (orientation: landscape) {
+@media (min-width: 40rem) {
     .plan__list {
         width: 100%;
         text-align: center;

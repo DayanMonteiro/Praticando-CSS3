@@ -79,6 +79,12 @@ body {
     vertical-align: middle;
 }
 
+@media (max-width: 30rem) {
+    .main-nav {
+        display: none;
+    }
+}
+
 .main-nav__items {
     margin: 0;
     padding: 0;
