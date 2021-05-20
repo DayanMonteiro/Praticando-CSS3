@@ -63,13 +63,7 @@ body {
     text-align: center;
 }
 
-/*
-.plan__list {
-    width: 100%;
-    margin: auto; COMENTAR ESSE
-    text-align: center;
-}
-*/
+
 .plan {
     background-color: #d5ffdc;
     text-align: center;
@@ -115,6 +109,28 @@ body {
     margin: 0;
     padding: 0;
 }
+
+@media (min-width: 40rem)  {
+    .plan__list {
+        width: 100%;
+        text-align: center;
+    }
+
+    .plan {
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        min-width: 13rem;
+        max-width: 25rem;
+    }
+
+    .plan--highLighted {
+        box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.50);
+    }
+}
+
+
+
 
 .plan__feature {
     margin: 0.5rem 0;
