@@ -1,2 +1,2 @@
-# Curso-de-CSS3---Academind
+# CSS3
 Academind Web Development
